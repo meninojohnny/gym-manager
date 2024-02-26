@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+}
+
+body {
+    background-color: rgba(146, 134, 134, 0.543);
+}
+
+header {
+    background-color: rgb(52, 143, 52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+header h2 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+section {
+    margin: 20px;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.input-text {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    margin-top: 4px;
+    background-color: rgba(146, 134, 134, 0.543);
+    outline: none;
+}
+
+.div-button {
+    display: flex;
+    justify-content: end;
+}
+
+.button {
+    text-decoration: none;
+    background-color: rgb(217, 234, 39);
+    padding: 8px 20px;
+    font-size: 13px;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.795);
+    font-weight: 500;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.107);
+}

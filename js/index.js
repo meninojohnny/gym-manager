@@ -1,3 +1,3 @@
 function irParaDetailPage() {
-    window.location.href = "../pages/detail-page.html"
+    window.location.href = "pages/detail-page.html";
 }
